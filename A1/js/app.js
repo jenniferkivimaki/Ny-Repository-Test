@@ -4,12 +4,16 @@ button0.addEventListener("click", function() {
   showRandomNumberPlayer();
   randomNumberPlayer();
   showRandomNumberAi();
+  resultOfRoll();
 })
 
 //DÄR PLAYERS KAST VISAS
 const playerRollTextfield = document.getElementById("playerRollText");
 const aiRollTextfield = document.getElementById("aiRollText");
 const resultTextfield = document.getElementById("result");
+
+let playerRoll = randomNumberPlayer();
+let aiRoll = randomNumberPlayer();
 
 
 
@@ -32,4 +36,9 @@ function showRandomNumberAi() {
   aiRollTextfield.innerHTML = "Computer Roll: " + randomNumberAi();
 }
 
-//FUNKTIONER FÖR ATT JÄMFÖRA
+//FUNKTIONER FÖR ATT JÄMFÖRA vem som vinner
+function resultOfRoll(playerRoll, aiRoll) {
+
+  (randomNumberPlayer() > randomNumberAi())
+  (randomNumberPlayer() < randomNumberAi())
+  (randomNumberPlayer() === randomNumberAi())

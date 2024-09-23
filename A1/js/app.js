@@ -42,3 +42,4 @@ function resultOfRoll(playerRoll, aiRoll) {
   (randomNumberPlayer() > randomNumberAi())
   (randomNumberPlayer() < randomNumberAi())
   (randomNumberPlayer() === randomNumberAi())
+

@@ -38,8 +38,15 @@ function showRandomNumberAi() {
 
 //FUNKTIONER FÖR ATT JÄMFÖRA vem som vinner
 function resultOfRoll(playerRoll, aiRoll) {
+if  (randomNumberPlayer() > randomNumberAi())
+console.log resultTextfield = document.getElementById("Player Win");
 
-  (randomNumberPlayer() > randomNumberAi())
+
+else if
   (randomNumberPlayer() < randomNumberAi())
-  (randomNumberPlayer() === randomNumberAi())
+    console.log resultTextfield = document.getElementById("Computer Win");
+
+
+ else  (randomNumberPlayer() === randomNumberAi())
+  resultTextfield = document.getElementById("Draw");
 

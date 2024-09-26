@@ -79,8 +79,8 @@ function updateScore() {
 
 //COOKIES   SKAPA EN FUNKTION FÖR ATT SPARA RESULTATEN I EN COOKIE
 function saveScore() {
-  document.cookie="previousPlayerScores="+playerScore+";expires= Fri, 27 Sep 2024 00.00:00 UTC";
-  document.cookie="previousAiScores="+aiScore+";expires= Fri, 27 Sep 2024 00.00:00 UTC";
+  document.cookie="previousPlayerScores="+playerScore+";expires= Sat, 26 Sep 2054 00.00:00 UTC";
+  document.cookie="previousAiScores="+aiScore+";expires= Sat, 26 Sep 2054 00.00:00 UTC";
 }
 
 

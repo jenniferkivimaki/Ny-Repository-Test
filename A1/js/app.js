@@ -1,10 +1,8 @@
-//DÄR PLAYERS KAST VISAS
 const playerRollTextfield = document.getElementById("playerRollText");
 const aiRollTextfield = document.getElementById("aiRollText");
 const resultTextfield = document.getElementById("result");
 const winsLoosesPlayerTextfield = document.getElementById("winsLoosesPlayer");
 const winsLoosesAiTextfield = document.getElementById("winsLoosesAi");
-
 
 
 let playerRoll = 0 ;
